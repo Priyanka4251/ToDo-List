@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css">
+    <title>ToDo List</title>
+
+</head>
+<body>
+    <!-- <i class="fa-solid fa-trash-plus"></i>     -->
+    <div class="container">
+        <header> <h1> Make Your List to Complete </h1>  <ul>
+        </ul> 
+        <input type="text" id="write"> 
+        <input type="hidden" id="saveIndex">
+
+        <button id="btn">Add Task</button> 
+        <button id="saveBtn" style="display: none;">Save Task</button>  <button id="dltAll">Delete All</button>
+    </header>
+
+        <h3> <div class="comp"> Task Incompleted 
+        
+    <table class="table table-striped" id="tableAdded">
+      </table>
+             </div></h3>
+        
+        <h3> <div class="incomp"> Task Completed  <ul id="incompleted">
+            <table class="table table-striped" id="table2">
+           
+            </table>
+
+        </ul></div></h3>     
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/9a14a7de65.js" crossorigin="anonymous"></script>
+
+    <script src="todo2.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    opacity: 1;
+
+}
+#write{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 25px;
+    opacity: 1;
+
+}
+#btn{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 25px;
+    opacity: 2;
+
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    list-style: none;
+    color: brown;
+    display: flex;
+    /* justify-content: center; */
+    /* padding: 8px 0; */
+}
+/* .dlt{
+    position: absolute;
+    margin: 0.5rem 21rem;
+    color: brown;
+    cursor: pointer;
+    display: none;
+} */
+table{
+    background-color:antiquewhite;
+    width: 80vw;
+    /* max-width: 80vw; */
+   min-height: 25vw;
+   opacity: 2;
+   overflow: scroll;
+}
+button.edit{
+   background-color:green;
+   color: white;
+   width: 44px;
+   border-radius: 20%;
+   cursor: pointer;
+}
+button.dlt{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 20%;
+
+}
+td.task{
+    color: brown;
+}
+#btn{
+    color: white;
+    background-color: green;
+}
+#dltAll{
+    color: white;
+    background-color: red;
+}
+#saveBtn{
+    color: white;
+    background-color: violet;
+}
