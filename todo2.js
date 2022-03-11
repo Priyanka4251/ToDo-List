@@ -102,5 +102,5 @@ dltAll.addEventListener("dblclick", function(){
 /////////////////////////////doneTask/////////////////////////
 function doneTask(index) {
     
-    // table2.innerHTML = html; 
+    table2.innerHTML = html; 
 }
