@@ -1,0 +1,56 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+table#tableAdded.table.table-striped{
+    background-color: palevioletred;
+    min-width: 80vw;
+    max-width: 85vw;
+}
+button{
+    background-color: rgba(216, 112, 147, 0.555);
+    color: white;
+    border-radius: 10%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.dlt{
+    float: right;
+    background-color: red;
+    border-radius: 40%;
+    color: white;
+}
+.edit{
+    float: right;
+    background-color: blue;
+    border-radius: 40%;
+    color: white;
+}
+.done{
+    float: right;
+    background-color: green;
+    border-radius: 40%;
+    color: white;
+
+}
+.comp{
+   
+    margin-right: 4px;
+   width: 80vw;
+    /* background-color: rgba(216, 112, 147, 0.582); */
+}
+
+.date{
+    background-color: palevioletred;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 30%;
+}
