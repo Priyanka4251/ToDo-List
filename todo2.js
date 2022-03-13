@@ -104,3 +104,57 @@ function doneTask(index) {
     
     // table2.innerHTML = html; 
 }
+
+////////////////////clock//////////////////////////////////////
+setInterval(displayClock, 500);
+function displayClock(){
+const datePlace= document.querySelector(".date");
+let today = new(Date);
+let dd= today.getDate();
+let mm= today.getMonth()+1;
+let yyyy= today.getFullYear();
+let hour = today.getHours();
+let min = today.getMinutes();
+let sec = today.getSeconds();
+let prepand = (hour>=12)?"PM" : "AM";
+
+if (hour>12 ) {
+    hour = hour - 12 ;
+}else if (hour == 0) {
+    hour = 12 ;
+}
+
+
+if (hour<10){
+    hour = "0" + hour;
+}else{
+    hour = hour
+}
+
+if (min<10){
+    min = "0" + min;
+}else{
+    min = min
+}
+
+if (sec<10){
+    sec = "0" + sec;
+}else{
+    sec = sec
+}
+    
+if (mm<10){
+    mm = "0" + mm;
+}else{
+    mm = mm
+}
+if (dd<10){
+    dd = "0" + dd;
+}else{
+    dd = dd
+}
+
+datePlace.innerHTML = dd + "/" + mm + "/" + yyyy + " Time is " + hour +":" +min +":" + sec + prepand;
+}
+
+displayClock();
